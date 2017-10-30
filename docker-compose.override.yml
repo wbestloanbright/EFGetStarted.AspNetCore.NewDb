@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  efgetstarted.aspnetcore.newdb:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
